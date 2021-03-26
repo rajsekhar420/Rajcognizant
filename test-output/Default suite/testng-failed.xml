@@ -6,8 +6,6 @@
       <class name="com.Project.TestCases.raj_Test_001">
         <methods>
           <include name="loginTest"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
         </methods>
       </class> <!-- com.Project.TestCases.raj_Test_001 -->
     </classes>

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12601" started-at="2021-03-24T17:57:07Z" finished-at="2021-03-24T17:57:20Z">
+  <suite name="Default suite" duration-ms="19851" started-at="2021-03-26T14:17:32Z" finished-at="2021-03-26T14:17:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12601" started-at="2021-03-24T17:57:07Z" finished-at="2021-03-24T17:57:20Z">
+    <test name="Default test" duration-ms="19851" started-at="2021-03-26T14:17:32Z" finished-at="2021-03-26T14:17:52Z">
       <class name="com.Project.TestCases.raj_Test_001">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Project.TestCases.raj_Test_001@402a079c]" name="setup" is-config="true" duration-ms="4384" started-at="2021-03-24T17:57:07Z" finished-at="2021-03-24T17:57:11Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Project.TestCases.raj_Test_001@402a079c]" name="setup" is-config="true" duration-ms="8790" started-at="2021-03-26T14:17:32Z" finished-at="2021-03-26T14:17:41Z">
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.Project.TestCases.raj_Test_001@402a079c]" name="loginTest" duration-ms="7322" started-at="2021-03-24T17:57:11Z" finished-at="2021-03-24T17:57:19Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.Project.TestCases.raj_Test_001@402a079c]" name="loginTest" duration-ms="10014" started-at="2021-03-26T14:17:41Z" finished-at="2021-03-26T14:17:51Z">
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Project.TestCases.raj_Test_001@402a079c]" name="tearDown" is-config="true" duration-ms="872" started-at="2021-03-24T17:57:19Z" finished-at="2021-03-24T17:57:20Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Project.TestCases.raj_Test_001@402a079c]" name="tearDown" is-config="true" duration-ms="1013" started-at="2021-03-26T14:17:51Z" finished-at="2021-03-26T14:17:52Z">
         </test-method> <!-- tearDown -->
       </class> <!-- com.Project.TestCases.raj_Test_001 -->
     </test> <!-- Default test -->

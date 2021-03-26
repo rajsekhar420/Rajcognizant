@@ -42,25 +42,28 @@ public class rajBase {
 	public static WebDriver driver;
 	//public static Logger Logger;
 	
-	@Parameters("broser")
+	//@Parameters("broser")
 	@BeforeClass
-	public void setup(String br) {
-		if(br.equals("chromePath")) {
-			
+	public void setup() {
+		
+		
+			/*public void setup(String br) {
+				if(br.equals("chromePath")) {
+			*/
 		
 			//System.setProperty("webdriver.chrome.driver", "C:\\Users\\PC\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
 		System.setProperty("webdriver.chrome.driver","./Drivers\\chromedriver.exe");	
 		driver=new ChromeDriver();
 				
 		//Logger=Logger.getLogger("testingMaven");
-		}
-		else if(br.equals("firefox")) {
+	//	}
+	//	else if(br.equals("firefox")) {
 			
 		//written code
 		
 		}
 		
-	}
+	
 	
 	@AfterClass
 	public void tearDown() {
